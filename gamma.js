@@ -11,9 +11,9 @@ document.getElementById("c").innerHTML = "gamma = "+gamma;
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 var centru = {x:canvas.width/2, y:canvas.height/2}
-var latura_patrat = 150;
+var latura_patrat = 50;
 context.clearRect(0, 0, canvas.width, canvas.height);
 context.fillStyle = "#6A0888";
 context.beginPath();
-context.fillRect(180, 150, 150, evt.gamma);
+context.fillRect(180, 150, 500, evt.gamma);
 }
